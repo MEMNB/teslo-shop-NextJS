@@ -4,6 +4,7 @@ export default function ShopLayout({children}: {
 }) {
   return (
     <main className="min-h-screen bg-red-500">
+      <div className="w-full sm"></div>
       {children}
     </main>
   );
