@@ -6,6 +6,10 @@ export * from './ui/sidebar/Sidebar';
 export * from './ui/footer/Footer';
 export * from './ui/pagination/Pagination';
 
+export * from './orders/OrderStatus';
+
+export * from './paypal/PayPalButton';
+
 export * from './product/size-selector/SizeSelector';
 export * from './product/quantity-selector/QuantitySelector';
 export * from './product/slideshow/ProductSlideshow';
@@ -15,5 +19,7 @@ export * from './product/stock-label/StockLabel';
 
 export * from './products/product-grid/ProductGrid';
 export * from './products/product-grid/ProductGridItem';
+
+export * from './providers/Providers';
 
 
